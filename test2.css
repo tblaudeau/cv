@@ -70,6 +70,7 @@ a.up {
 	background-color: transparent;
 }
 a.up::after {
+	background-blend-mode: screen;
 	display:block;
 	content:'↑';
 	position:absolute;
@@ -77,6 +78,8 @@ a.up::after {
 	top: 19px;
 	font-size: 2rem;
 }
+
+	
 
 iframe {
 width: 100%;
@@ -87,6 +90,20 @@ bottom:2rem;
 border-radius:10px;
 
 }
+
+@media screen and (min-width: 1024px) {
+	
+ a.up {
+	display:none;
+	
+}
+
+}
+
+
+
+
+
 
 div.maxblock{max-width: 500px;width: 100%;margin: 0 auto;}
 
