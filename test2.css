@@ -1,0 +1,98 @@
+body {
+   background-color: beige;
+   font-size: 27px;
+}
+
+
+h2 {
+    font-size: xx-large;
+    text-decoration-line: underline;
+}
+
+    
+
+.box {
+	display: flex;
+	flex-flow: row wrap;
+	column-gap: 1em;
+	row-gap: 1em;
+}
+
+.box > article {
+	flex: 1 0 auto;
+	padding: 0 1em;
+	border-radius: 10px;
+	font-size: x-large;
+	border-block-color: initial;
+	border: aliceblue;
+
+}
+
+
+.box > article > ul {
+	background-color: #9e9e9e6b;
+}
+
+article#sujet {
+	background-color: #a587a0;
+}
+
+article#langues {
+	
+	background-color: teal;
+	
+}
+
+article#experience {
+	background-color: chartreuse;
+	
+	
+}
+
+article#loisirs {
+	background-color: #cddc39;
+	
+	
+}
+
+ul {
+	border-radius: 10px;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+a.up {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	border-bottom: 64px solid #5f57578f;
+	border-left: 80px solid transparent;
+	background-color: transparent;
+}
+a.up::after {
+	display:block;
+	content:'↑';
+	position:absolute;
+	right: 10px;
+	top: 19px;
+	font-size: 2rem;
+}
+
+iframe {
+width: 100%;
+aspect-ratio:16 / 9;
+display:block;
+margin: 1em;
+bottom:2rem;
+border-radius:10px;
+
+}
+
+div.maxblock{max-width: 500px;width: 100%;margin: 0 auto;}
+
+
+div.photo {
+	border-color: black;
+	background-color: beige;
+	border-radius: 20px;
+}
