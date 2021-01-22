@@ -6,7 +6,8 @@ body {
 
 h2 {
     font-size: xx-large;
-    text-decoration-line: underline;
+    /* text-decoration-line: underline; */
+    text-align: center;
 }
 
     
@@ -19,18 +20,20 @@ h2 {
 }
 
 .box > article {
-	flex: 1 0 auto;
+	flex: 1 1 auto;
 	padding: 0 1em;
 	border-radius: 10px;
 	font-size: x-large;
 	border-block-color: initial;
 	border: aliceblue;
+	
 
 }
 
 
 .box > article > ul {
 	background-color: #9e9e9e6b;
+
 }
 
 article#sujet {
@@ -109,7 +112,32 @@ div.maxblock{max-width: 500px;width: 100%;margin: 0 auto;}
 
 
 div.photo {
-	border-color: black;
-	background-color: beige;
-	border-radius: 20px;
+	/* border-color: black; */
+	/* background-color: beige; */
+	/* border-radius: 20px; */
+	height: 3em;
+	overflow: hidden;
+	position: relative;
+	
+}
+
+.photo {
+	max-width: 100%;
+}
+
+.photo {
+	width: 100%;
+}
+
+.photo>img {
+	width: 100%;
+	margin-top: -40%;
+	position: relative;
+	/* flex: 1 0 auto; */
+	/* height: auto; */
+	/* display: block; */
+	top: 50%;
+}
+.photo + h2 {
+	background: #9fc39f;margin: 0;
 }
