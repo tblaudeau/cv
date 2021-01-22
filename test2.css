@@ -1,8 +1,21 @@
 body {
-   background-color: beige;
+	background-color: beige;
    font-size: 27px;
-}
+   animation-duration: 2s;
+   animation-name: appearin;
 
+}
+  @keyframes appearin {
+  from {
+    opacity: 0;
+    
+  }
+
+  to {
+    opacity: 1;
+    
+  }
+}
 
 .photo h2 {
     font-size: xx-large;
